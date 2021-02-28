@@ -3,75 +3,105 @@
     padding: 0;
     margin: 0;
 }
+/* This will set padding(spacing between content and border) to 0, the margin (the space around the element) to 0 adn the box-sizing to border-box(this tells the browser to consider any border and padding in the values specified by the user for the elements width and height).  */
 
 body {
     background-color: #d9dcd6;
 }
+/* This Sets background colour to "#d9dcd6 */
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* This sets the font family. */
     background-color: #2a607c;
+    /* This sets the background color. */
     color: #ffffff;
+    /* This sets the text color */
 }
 
 .header h1 {
     display: inline-block;
+    /* This sets the display box to be diplayed as an inline-block */
     font-size: 48px;
+    /* This sets the font size. */
 }
 
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Sets color for all descendants containing class attribute "seo" of <h1> tag that is descendant of a tag that contains class attribute "header". */
 
 .header nav {
     padding-top: 15px;
+    /* This will set spacing between content and top border */
     margin-right: 20px;
+    /* This sets the space around the element in this case to the right*/
     float: right;
+    /* Specifies how an element should be floated. Applies to elements that generate boxes that are not absolutely positioned. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 .header nav ul {
     list-style-type: none;
+    /* This sets the marker of a list item element. It is inherited. */
 }
 
 .header nav ul li {
     display: inline-block;
+        /* This sets the display box to be diplayed as an inline-block */
     margin-left: 25px;
+        /* This sets the space around the element, in this case to the left*/
 }
 
 a {
     color: #ffffff;
+    /* Sets the text color */
     text-decoration: none;
+    /* Sets decorations applied to a font. In this case there is no decoration applied */
 }
 
 p {
     font-size: 16px;
+    /* Sets fots size of all paragraphs to 16px. */
 }
 
 .background-image {
-    height: 800px;
+    height: auto;
+    /* Sets the height to match the display. */
     width: 100%;
+    /* Sets the width to 100% of the webpage. */
     margin-bottom: 25px;
+    /* Sets the margin bottom area to 25px. */
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
+    /* Specifies the size of the background image. */
     background-position: center;
+    /* Specifies the position of the background image. */
 }
 
 .float-left {
     float: left;
+    /* Specifies how a box should be floated, placing on the left or the right side of its container. */
     margin-right: 25px;
+    /* Sets the margin-right area to 25px. */
 }
 
 .float-right {
     float: right;
+        /* Specifies how a box should be floated, placing on the left or the right side of its container. */
     margin-left: 25px;
+        /* Sets the margin-left area to 25px. */
 }
 
 .content {
     width: 75%;
+    /* This sets the display width area. */
     display: inline-block;
+            /* This sets the display box to be diplayed as an inline-block */
     margin-left: 20px;
+            /* Sets the margin-left area to 20px. */
 }
 
 .benefits {
@@ -90,12 +120,14 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* This sets fon size to 36px. */
 }
 
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
+    /* Limits content height. */
 }
 
 .search-engine-optimization,
@@ -104,6 +136,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    /* Specifies content height. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -121,19 +154,24 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* Sets how the inline contents of a block are diplayed, horizonatlly. */
 }
 
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
     display: block;
+    /* This generates a block element box, creating line breaks before and after the element. */
     margin: 10px auto;
+    /* This sets the amrgin area. */
     max-width: 150px;
+    /* This constrains width to a certain limit. */
 }
 
 .footer {
     padding: 30px;
     clear: both;
+    /* This indicates which side of an element`s box may not be adjacent to an earlier floating box.*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
