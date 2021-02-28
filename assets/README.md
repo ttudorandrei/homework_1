@@ -1,8 +1,36 @@
 # Title   
+Homework_1 Refactor
 
 ## Description
 
+* The HTML file had improper indentation, I have corrected the issue.
+
+* One of the links in the HTML file was not correctly linked with an id. I have connected the link with the appropiate id and made sure it is now working.
+
+* The title was improperly named, I have renamed it to a short, concise title.
+
+* The HTML tags were not properly named. I have renamed the tags using semantic elements. The document has now semantic, descriptive tags.
+
+* Images were missing `alt` attributes. I have added descriptive `alt` attributes to every image and tested to make sure everything works.
+
+* CSS selectors were rearranged to match the flow of the HTML file.
+
+* CSS selector were grouped to match the DRY (Don`t Repeat Yourself) principle.
+
+* Each unique CSS definition was explained using comments.
+
+* Repository was named `homework_1`.
+
+* Added README file that contains all the changes made to the HTML and CSS files, link to the Github repository, link to deployed application and screenshot of the working application.
+
 ## Screenshots
+
+Screenshot 1: "./images/Horiseon-Screenshot-1.png"
+Screenshot 2: "./images/Horiseon-Screenshot-2.png"
+Screenshot 3: "./images/Horiseon-Screenshot-3.png"
 
 ## Link to the deployed application
 https://ttudorandrei.github.io/homework_1/
+
+## Link to the Github repository
+https://github.com/ttudorandrei/homework_1
