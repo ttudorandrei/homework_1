@@ -81,6 +81,15 @@ p {
     /* Specifies the position of the background image. */
 }
 
+.content {
+    width: 75%;
+    /* This sets the display width area. */
+    display: inline-block;
+            /* This sets the display box to be diplayed as an inline-block */
+    margin-left: 20px;
+            /* Sets the margin-left area to 20px. */
+}
+
 .float-left {
     float: left;
     /* Specifies how a box should be floated, placing on the left or the right side of its container. */
@@ -95,24 +104,16 @@ p {
         /* Sets the margin-left area to 25px. */
 }
 
-.content {
-    width: 75%;
-    /* This sets the display width area. */
-    display: inline-block;
-            /* This sets the display box to be diplayed as an inline-block */
-    margin-left: 20px;
-            /* Sets the margin-left area to 20px. */
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    /* Specifies content height. */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 .search-engine-optimization h2,
@@ -130,16 +131,15 @@ p {
     /* Limits content height. */
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    /* Specifies content height. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    background-color: #2589bd;
 }
 
 .benefit-lead,
