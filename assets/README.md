@@ -25,9 +25,11 @@ Homework_1 Refactor
 
 ## Screenshots
 
-Screenshot 1: "./images/Horiseon-Screenshot-1.png"
-Screenshot 2: "./images/Horiseon-Screenshot-2.png"
-Screenshot 3: "./images/Horiseon-Screenshot-3.png"
+Screenshot 1 ![Screenshot 1](/assets/images/Horiseon-Screenshot-1.png)
+
+Screenshot 2 ![Screenshot 2](/assets/images/Horiseon-Screenshot-2.png)
+
+Screenshot 3 ![Screenshot 3](/assets/images/Horiseon-Screenshot-3.png)
 
 ## Link to the deployed application
 https://ttudorandrei.github.io/homework_1/
