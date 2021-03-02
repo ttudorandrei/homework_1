@@ -74,7 +74,7 @@ p {
     /* Sets the width to 100% of the webpage. */
     margin-bottom: 25px;
     /* Sets the margin bottom area to 25px. */
-    background-image: url("/assets/images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     /* Specifies the size of the background image. */
     background-position: center;
