@@ -67,14 +67,14 @@ p {
     /* Sets fots size of all paragraphs to 16px. */
 }
 
-.background-image {
-    height: auto;
+.hero {
+    height: 800px;
     /* Sets the height to match the display. */
     width: 100%;
     /* Sets the width to 100% of the webpage. */
     margin-bottom: 25px;
     /* Sets the margin bottom area to 25px. */
-    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
+    background-image: url("/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     /* Specifies the size of the background image. */
     background-position: center;
