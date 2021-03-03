@@ -22,7 +22,7 @@ body {
 
 .header h1 {
     display: inline-block;
-    /* This sets the display box to be diplayed as an inline-block */
+    /* This sets the display box to be displayed as an inline-block */
     font-size: 48px;
     /* This sets the font size. */
 }
@@ -50,7 +50,7 @@ body {
 
 .header nav ul li {
     display: inline-block;
-        /* This sets the display box to be diplayed as an inline-block */
+        /* This sets the display box to be displayed as an inline-block */
     margin-left: 25px;
         /* This sets the space around the element, in this case to the left*/
 }
@@ -85,7 +85,7 @@ p {
     width: 75%;
     /* This sets the display width area. */
     display: inline-block;
-            /* This sets the display box to be diplayed as an inline-block */
+            /* This sets the display box to be displayed as an inline-block */
     margin-left: 20px;
             /* Sets the margin-left area to 20px. */
 }
@@ -154,7 +154,7 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-    /* Sets how the inline contents of a block are diplayed, horizonatlly. */
+    /* Sets how the inline contents of a block are displayed, horizontally. */
 }
 
 .benefit-lead img,
@@ -163,7 +163,7 @@ p {
     display: block;
     /* This generates a block element box, creating line breaks before and after the element. */
     margin: 10px auto;
-    /* This sets the amrgin area. */
+    /* This sets the margin area. */
     max-width: 150px;
     /* This constrains width to a certain limit. */
 }
