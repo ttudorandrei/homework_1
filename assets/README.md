@@ -3,21 +3,25 @@ Homework_1 Refactor
 
 ## Description
 
-* I have added proper indentation in the HTML file.
+As developers, we were tasked with refactoring the code and optimizing it for SEO purposes.
 
-* One of the links in the HTML file was not correctly linked with an id. I have connected the link with the proper id and made sure it is now working.
+## What have we done
 
-* The title was improperly named, I have renamed it to a short, concise, descriptive title.
+* Added proper indentation in the HTML file.
 
-* I have renamed the HTML tags using semantic elements. The document has now semantic, descriptive tags.
+* Fixed the navigation bar link bug
 
-* I have added descriptive `alt` attributes to every image and tested to make sure everything works.
+* Renamed the title to a short, concise, descriptive one.
 
-* CSS selectors were rearranged to match the flow of the HTML file.
+* I have renamed the HTML tags using semantic elements.
 
-* CSS selector were grouped to match the DRY (Don`t Repeat Yourself) principle.
+* I have added descriptive `alt` attributes to images.
 
-* Each unique CSS definition was explained using comments.
+* Refactor CSS file to match the flow of the HTML file.
+
+* CSS selectors were grouped to match the DRY (Don`t Repeat Yourself) principle.
+
+* Described CSS definitions.
 
 * Repository was named `homework_1`.
 
@@ -25,16 +29,12 @@ Homework_1 Refactor
 
 ## Screenshots
 
-Screenshot 1 ![Screenshot 1](/assets/images/Horiseon-Screenshot-1.png)
+Screenshot before refactor ![screenshot-before-refactor](/assets/images/screenshot-before-refactor.png)
 
-Screenshot 2 ![Screenshot 2](/assets/images/Horiseon-Screenshot-2.png)
-
-Screenshot 3 ![Screenshot 3](/assets/images/Horiseon-Screenshot-3.png)
-
-Screenshot 4 ![Screenshot 4](/assets/images/Side-by-Side-Screenshot.png)
+Screenshot after refactor ![screenshot-after-refactor](/assets/images/screenshot-afer-refactor.png)
 
 ## Link to the deployed application
-https://ttudorandrei.github.io/homework_1/
+You can view the deployed application [here](https://ttudorandrei.github.io/homework_1/).
 
 ## Link to the Github repository
-https://github.com/ttudorandrei/homework_1
+You can access the Github repository [here](https://github.com/ttudorandrei/homework_1).
